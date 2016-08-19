@@ -1,0 +1,171 @@
+Processing:  dutch
+dutch
+nothing
+================================================================================
+POLYNOMIAL
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=0.1 :  0.596184210526
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=1 :  0.596184210526
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=10 :  0.596184210526
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=0.1 :  0.492105263158
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=1 :  0.654342105263
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=10 :  0.695526315789
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=0.1 :  0.492105263158
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=1 :  0.651710526316
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=10 :  0.723947368421
+================================================================================
+RADIAL BASIS FUNCTION
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=1 :  0.489473684211
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=10 :  0.489473684211
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=1000 :  0.648947368421
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=1 :  0.646315789474
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=10 :  0.700789473684
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=1000 :  0.726710526316
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=1 :  0.716578947368
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=10 :  0.6875
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=1000 :  0.659078947368
+Processing:  spanish
+spanish
+/usr/local/lib/python2.7/dist-packages/sklearn/cross_validation.py:516: Warning: The least populated class in y has only 6 members, which is too few. The minimum number of labels for any class cannot be less than n_folds=10.
+  % (min_labels, self.n_folds)), Warning)
+================================================================================
+POLYNOMIAL
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=0.1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=10 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=0.1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=10 :  0.518628312107
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=0.1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=1 :  0.510719232458
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=10 :  0.513691541952
+================================================================================
+RADIAL BASIS FUNCTION
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=1 :  0.50603132777
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=10 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=1000 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=10 :  0.518628312107
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=1000 :  0.473705280227
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=1 :  0.505387205387
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=10 :  0.449294505816
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=1000 :  0.429092485614
+================================================================================
+POLYNOMIAL
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=0.1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=10 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=0.1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=10 :  0.518628312107
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=0.1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=1 :  0.510719232458
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=10 :  0.513691541952
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=0.1 :  0.491987179487
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=1 :  0.491987179487
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=10 :  0.491987179487
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=0.1 :  0.529487179487
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=1 :  0.555448717949
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=10 :  0.638461538462
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=0.1 :  0.500320512821
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=1 :  0.580128205128
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=10 :  0.650320512821
+================================================================================
+RADIAL BASIS FUNCTION
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=1 :  0.50603132777
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=10 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=1000 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=1 :  0.502327624067
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=10 :  0.518628312107
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=1000 :  0.473705280227
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=1 :  0.505387205387
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=10 :  0.449294505816
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=1000 :  0.429092485614
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=1 :  0.491987179487
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=10 :  0.491987179487
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=1000 :  0.522756410256
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=1 :  0.539743589744
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=10 :  0.639423076923
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=1000 :  0.694230769231
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=1 :  0.604807692308
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=10 :  0.622115384615
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=1000 :  0.646794871795
+Processing:  english
+english
+================================================================================
+POLYNOMIAL
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=0.1 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=1 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=10 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=0.1 :  0.414015865649
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=1 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=10 :  0.449854451655
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=0.1 :  0.414015865649
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=1 :  0.425643772626
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=10 :  0.418505781418
+================================================================================
+RADIAL BASIS FUNCTION
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=1 :  0.418561320195
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=10 :  0.414015865649
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=1000 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=1 :  0.414015865649
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=10 :  0.44292047777
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=1000 :  0.392193390841
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=1 :  0.461359167397
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=10 :  0.438471167391
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=1000 :  0.42039035931
+================================================================================
+POLYNOMIAL
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=0.1 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=1 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=1 C=10 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=0.1 :  0.414015865649
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=1 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=2 C=10 :  0.449854451655
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=0.1 :  0.414015865649
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=1 :  0.425643772626
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=poly degree=3 C=10 :  0.418505781418
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=0.1 :  0.519563575959
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=1 :  0.519563575959
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=1 C=10 :  0.519563575959
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=0.1 :  0.482819893285
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=1 :  0.57480620155
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=2 C=10 :  0.705914628008
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=0.1 :  0.50343551797
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=1 :  0.648069566093
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=poly degree=3 C=10 :  0.687030605054
+================================================================================
+RADIAL BASIS FUNCTION
+================================================================================
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=1 :  0.418561320195
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=10 :  0.414015865649
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=0.001 C=1000 :  0.416341447045
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=1 :  0.414015865649
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=10 :  0.44292047777
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=1 C=1000 :  0.392193390841
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=1 :  0.461359167397
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=10 :  0.438471167391
+word2vec-source=tfidf-pan15 dims=10000 task=age kernel=rbf gamma=100 C=1000 :  0.42039035931
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=1 :  0.498837209302
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=10 :  0.498837209302
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=0.001 C=1000 :  0.54964512232
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=1 :  0.568040873855
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=10 :  0.698990737944
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=1 C=1000 :  0.650400181214
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=1 :  0.696340481224
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=10 :  0.678047921071
+word2vec-source=tfidf-pan15 dims=10000 task=gender kernel=rbf gamma=100 C=1000 :  0.682432296386
+================================================================================
+POLYNOMIAL
+================================================================================
+================================================================================
+RADIAL BASIS FUNCTION
+================================================================================
